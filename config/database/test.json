@@ -1,0 +1,7 @@
+{
+  "user": "developer",
+  "password": "developer",
+  "host": "postgres-db.chqo6wuygt3z.ap-southeast-3.rds.amazonaws.com",
+  "port": 5432,
+  "database": "forumapi_test"
+}
