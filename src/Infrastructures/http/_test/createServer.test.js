@@ -55,7 +55,7 @@ describe('HTTP server', () => {
     });
   });
 
-  describe('when GET /', () => {
+  describe('when GET /sayhello', () => {
     it('should return 200 and hello there', async () => {
       // Arrange
       const server = await createServer({});
