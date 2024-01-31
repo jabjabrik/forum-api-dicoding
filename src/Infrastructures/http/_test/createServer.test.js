@@ -62,7 +62,7 @@ describe('HTTP server', () => {
       // Action
       const response = await server.inject({
         method: 'GET',
-        url: '/',
+        url: '/sayhello',
       });
       // Assert
       const responseJson = JSON.parse(response.payload);
