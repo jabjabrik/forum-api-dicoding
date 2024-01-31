@@ -56,13 +56,13 @@ describe('HTTP server', () => {
   });
 
   describe('when GET /', () => {
-    it('should return 200 and hello there', async () => {
+    it('should return 200 and hello world', async () => {
       // Arrange
       const server = await createServer({});
       // Action
       const response = await server.inject({
         method: 'GET',
-        url: '/sayhello',
+        url: '/',
       });
       // Assert
       const responseJson = JSON.parse(response.payload);
